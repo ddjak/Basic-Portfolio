@@ -1,3 +1,87 @@
+header {
+	width: 100%;
+	background-color: black;
+	float:left;
+}
+
+body {
+	background-color:beige;
+}
+
+.profile-name {
+	color: white;
+	background-color:green;
+	width:235px;
+	padding:15px;
+	float:left;
+}
+
+.about-me {
+	float:left;
+	width:50%;
+	background-color:green;
+	border: solid 5px;
+}
+
+.connect-with-me {
+	float:left;
+	width:48%;
+	background-color:green;
+	border: solid 5px;
+}
+
+section {
+
+}
+
 .head-link {
+	/*border: solid;
+	padding: 10px;*/
+	float:left;
+	border: solid;
+	padding: 20px;
+}
+
+a:link {
+	text-decoration: none;
 	
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+p {
+	
+}
+
+.profile-img {
+	width: 40%;
+	height: 20%;
+	float:left;
+}
+
+.connect-img {
+	width:32%;
+	height:100%;
+}
+
+.grouped-img {
+	padding:5px;
+	height:158px;
+}
+
+.grouped-links {
+	width:100%;
+}
+footer {
+
 }
