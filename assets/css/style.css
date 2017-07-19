@@ -1,5 +1,5 @@
 body {
-	background: url("assets/images/cork-wallet.png") no-repeat;
+	background: url("../images/cork-wallet.png");
 }
 
 header {
@@ -50,6 +50,7 @@ button {
 	padding:12px;
 	float:left;
 	position:relative;
+	left:9%;
 	margin-right:20px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -131,19 +132,24 @@ p {
 }
 
 .image-with-text {
+	width:260px;
+	float:left;
+	overflow:auto;
+	padding:30px 30px 0px 45px;
 }
 
 .portfolio-image{
-	width: 48%;
-	float:left;
-	padding:6px;
+	width: 100%;
 }
 
-h4 span {
-	top: 20px;
-	width:50%;
+h4{
+	width:100%;
 	background-color:#4aaaa5;
 	color:#ffffff;
+	position: relative;
+	bottom:100px;
+	height:30px;
+	text-align:center;
 }
 
 footer {
